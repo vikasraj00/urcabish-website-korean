@@ -1,24 +1,42 @@
 <!doctype html>
 <html>
 <head>
-
+<!--기본 세팅-->
 <title> welcome page</title>
 <meta charset="utf-8">
-<background="Soft Cherish.png">
-<bgproperties="fixed">
 <text="green">
 </head>
 <h1>main</h1>
-<h1> "<input id="text" type="text" value="이름 입력"></input>"님! 안녕하세요!</h1>
+<!--아이디 입력-->
+<script>
+    var userName = prompt("당신의 아이디는 무엇인가요?", "아이디");
+
+  a = 0
+ while (a = 0) {
+   document.write("<h1> 안녕하세요! " + userName + " 님! </h1>")
+ }
+
+</script>
+<!--일반-->
+<body>
 <h2>유저출연합작서버</h2>
 <img src="엔출합.png" width="15%"><br>
-<body>
 <li><a href="우르카비쉬 테스트 1 about.html">about</a> 바로가기</li>
 여기는 <strong> 유저출연합작서버 공식 테스트 서버1</strong>입니다.<p style="margin-top:45px;">
 현재 <u><a href="https://playentry.org/#!/">엔트리</a></u>에서 활동하고 있습니다.<br>
 </p>
 
-<iframe src="https://discordapp.com/widget?id=722800763570749520&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+<p>
+<h2><input type="button" value="합작 신청" onclick="showPopup();" /></h2>
+  <script language="javascript">
+  function showPopup() { window.open("popout_add.html", "합작원 신청", "width=400, height=300, left=100, top=50"); }
+  </script>
+
+</p>
+
+<p>
+<iframe src="https://discordapp.com/widget?id=717650222636990504&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+</p>
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
