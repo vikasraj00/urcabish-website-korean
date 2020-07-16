@@ -5,7 +5,7 @@
 
 페이지 링크--https://entry-group.github.io/urcabish-website-korean/
 
-파일을 수정 안하고 새로 만들어서 올릴때는 repository새로 만드셈
+파일을 수정 안하고 새로 만들어서 올릴때는 repository새로 만드세여.
 
 
-@everyone 이거 테스트할때 몇번 새로고침해주세요
+이거 테스트할때 몇번 새로고침해주세요
