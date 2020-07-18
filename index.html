@@ -18,12 +18,12 @@
 <script>
     var userName = prompt("당신의 아이디는 무엇인가요?", "음...");
     if (userName * userName.length === 2292) {
-    var yn =  prompt('웹사이트 관리자이시군요! 안녕하세요! 웹사이트 코드 알려드릴까요?(예/아니요) ')
+    var yn =  prompt('웹사이트 관리자이시군요! 안녕하세요! 웹사이트 코드 알려드릴까요?(예/아니요) ');
     if (yn === 예) {
    window.open("code.html", "미완", "width=700, height=500, left=300, top=70");
     }
     else {
-   docwriteid()
+   docwriteid();
     }
     else {
    function docwriteid() {document.write("<h1> 안녕하세요! " + userName + " 님! </h1>");}
