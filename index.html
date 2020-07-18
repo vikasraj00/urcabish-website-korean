@@ -3,7 +3,7 @@
 <head>
 <!--기본 세팅-->
 <script type="text/javascript">
-  var infinity = 0
+  var infinity = 9
 </script>
   <script src="addpopup function.js">
   </script>
@@ -17,8 +17,18 @@
 <!--아이디 입력-->
 <script>
     var userName = prompt("당신의 아이디는 무엇인가요?", "음...");
-   document.write("<h1> 안녕하세요! " + userName + " 님! </h1>")
-
+    if (userName * userName.length === 2292) {
+    var yn =  prompt('웹사이트 관리자이시군요! 안녕하세요! 웹사이트 코드 알려드릴까요?(예/아니요) ')
+    if (yn === 예) {
+   window.open("code.html", "미완", "width=700, height=500, left=300, top=70");
+    }
+    else {
+   docwriteid()
+    }
+    else {
+   function docwriteid() {document.write("<h1> 안녕하세요! " + userName + " 님! </h1>");}
+    }
+  }
 </script>
 <!--일반-->
 <body>
@@ -35,7 +45,7 @@
 <input type="button" value=" 무한 반복 alert" onclick="alert();" />
   <script language="javascript">
 function alert() {
-  while (infinity = 0) {
+  while (infinity > 1) {
     alert ("infinity");
   }
 }
