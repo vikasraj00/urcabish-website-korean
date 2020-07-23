@@ -1,0 +1,11 @@
+#topbox{
+  box-shadow:3px 3px 7px gray;
+  padding:40px;
+  text-align:right;
+  justfy-content:right;
+  border:5px solid black;
+  background-color:white;
+ }
+#main{
+  text-align:left;
+}
