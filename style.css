@@ -31,7 +31,7 @@ body{
   filter: sepia();
 }
 
-header {
+/*header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,7 +43,7 @@ background-color:#ff99ff;
   margin-bottom: 2rem;
 }
 
-/*header h1 {
+header h1 {
   font-size: 5rem;
   color: white;
   width: max-content;
