@@ -6,7 +6,6 @@
   border:5px solid black;
   background-color:white;
 }
-
 #aboutgo{
   border-right: 2px dashed green;
   width: 100px;
@@ -31,31 +30,14 @@ body{
   filter: sepia();
 }
 
-/*header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 25vh;
-background-color:#ff99ff;
-  border-radius: 0 0 2rem 2rem;
-  margin-bottom: 2rem;
+@mixin textset($color, $backc, $size, $margin, $deco) {
+  color: $color;
+  font-size: $size;
+  margin: $margin;
+  text-decoration: $deco;
+  background-color: $backc;
 }
 
-header h1 {
-  font-size: 5rem;
-  color: white;
-  width: max-content;
-  font-weight: 800;
+#dialog {
+  @include textset(red,green,30px,0,solid)
 }
-
-header h1::selection {
-  color: white;
-  background-color: #ff99ff;
-  -webkit-text-fill-color: white;
-  -mos-text-fiil-color:white;
-  -o-text-fill-color:white;
-  -ms-text-fill-color:white;
-  border-radius: 1rem;
-}여기 망함*/
