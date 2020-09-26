@@ -1,0 +1,23 @@
+#mainlogo {
+  text-align: center;
+  margin-bottom: 0;
+  border: 1px solid gray;
+  display: grid;
+}
+body {
+  margin: 0;
+}
+
+#logo {
+  margin: 0;
+  border-image: 1px solid gray;
+}
+#cap {
+  text-align: center;
+    border-image: 1px solid gray;
+}
+#figurecaption {
+  display: grid;
+    border: 1px solid gray;
+    text-align: center;
+}

@@ -4,8 +4,21 @@
   text-align:right;
   justfy-content:right;
   border:5px solid black;
-  background-color:white;
+  background:'logo.png';
 }
+#wherelogo {
+  justify-content: center;
+  z-index: -1;
+  text-align: center;
+  right: 250px;
+}
+#topback{
+  justify-content: center;
+
+  z-index: -1;
+}
+
+
 
 #aboutgo{
   border-right: 2px dashed green;
@@ -28,11 +41,6 @@ body{
   border: none; border: 1px dashed gray;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
-
-* {
-  font-family: Open Sans;
-}
 
 section {
   width: 100%;
