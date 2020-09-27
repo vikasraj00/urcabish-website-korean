@@ -1,4 +1,6 @@
-alert("esc로 나가기");
- if(onkeypress == 24){
-  window.Open("index.html", "_blank");
+//출처: https://silver0r.tistory.com/119 [어흥]
+alert("콘솔에서 out();입력해서 나가기");
+function out() {
+    window.open("index.html", "_blank");
+    close()
 }
