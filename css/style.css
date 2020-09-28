@@ -1,23 +1,27 @@
 @import 'font.scss';
 
+
 #topbox{
   box-shadow:3px 3px 7px gray;
-  padding:40px;
+  padding:0px;
   text-align:right;
   justfy-content:right;
   border:5px solid black;
-  background:'logo.png';
+  height: 591px;
+  width: 1893px;
+  background-image:url('제목 없음.png');
 }
 #wherelogo {
   justify-content: center;
-  z-index: -1;
+  z-index: auto;
   text-align: center;
   right: 250px;
 }
 #topback{
   justify-content: center;
-
-  z-index: -1;
+  height: 591px;
+  width: 1893px;
+  z-index: 1;
 }
 
 
